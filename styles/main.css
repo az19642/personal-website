@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+  /* Slate 800 */
+  --color-primary: hsl(222, 47%, 11%);
+  --shadow-color-primary: hsla(229, 84%, 5%, 0.1);
+
+  /* Slate 700 */
+  --color-primary-alt: hsl(215, 25%, 27%);
+
+  /* Sky 600 */
+  --color-secondary: hsl(200, 98%, 39%);
+
+  /* Slate 50*/
+  --color-bg: hsl(210, 40%, 98%);
+
+  --size-xs: 0.75rem;
+  --size-sm: 0.875rem;
+  --size-base: 1rem;
+  --size-lg: 1.125rem;
+  --size-xl: 1.25rem;
+  --size-2xl: 1.5rem;
+  --size-3xl: 1.875rem;
+  --size-4xl: 2.25rem;
+  --size-5xl: 3rem;
+  --size-6xl: 3.75rem;
+  --size-7xl: 4.5rem;
+  --size-8xl: 6rem;
+  --size-9xl: 8rem;
+
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  --font-bold: 700;
+}
+
+.dark-theme {
+  /* Slate 50 */
+  --color-primary: hsl(210, 40%, 98%);
+  --shadow-color-primary: hsla(210, 40%, 98%, 0.1);
+  
+  /* Slate 200 */
+  --color-primary-alt: #e2e8f0;
+
+  /* Rose 400 */
+  --color-secondary: hsl(353, 96%, 82%);
+
+  /* Slate 800 */
+  --color-bg: hsl(222, 47%, 11%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding: var(--scroll-padding, 4rem);
+}
+
+body {
+  font-family: 'Poppins';
+  font-size: var(--size-base);
+  line-height: 1.6;
+  background-color: var(--color-bg);
+  color: var(--color-primary);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+
+button {
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
