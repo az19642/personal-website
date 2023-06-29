@@ -22,6 +22,7 @@
   align-self: center;
 }
 
+/* Pop out (hover) effect on skill items */
 @media (hover: hover) {
   .skills__name {
     transform-origin: 0%;

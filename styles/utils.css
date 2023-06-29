@@ -25,7 +25,7 @@
   text-align: center;
 }
 
-/* \/ \/ \/ \/ \/ hover ul only optimized for < 475px*/
+/* Sliding underline (hover) effect */
 @media (hover: hover) {
   .hover-sliding-ul:hover {
     color: var(--color-secondary);
