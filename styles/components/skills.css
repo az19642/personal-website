@@ -13,12 +13,11 @@
   display: flex;
   gap: 1rem;
   height: var(--size-3xl);
-  color: var(--color-primary);
+  color: var(--color-primary-alt);
 }
 
 .skills__name {
   font-weight: var(--font-medium);
-  color: var(--color-primary);
   align-self: center;
 }
 
