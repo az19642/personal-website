@@ -7,7 +7,7 @@
 }
 
 .site-link {
-  font-size: var(--size-2xl);
+  font-size: var(--size-3xl);
   font-weight: var(--font-semi-bold);
   text-decoration: none;
   transition: color 0.3s;
@@ -42,10 +42,6 @@
 @media (min-width: 768px) {
   .nav__bars {
     display: none;
-  }
-
-  .site-link {
-    font-size: var(--size-xl);
   }
 
   .nav__menu {
@@ -88,7 +84,7 @@
 /* lg */
 @media (min-width: 1024px) {  
   .site-link {
-    font-size: var(--size-2xl);
+    font-size: var(--size-4xl);
   }
 
   .nav__menu {
