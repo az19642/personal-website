@@ -6,3 +6,4 @@ WIP:
 - Contact section
 - Icon colors corresponding to theme
 - Mobile (no-hover) effects
+- Mobile nav
