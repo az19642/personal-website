@@ -1,2 +1,2 @@
-# dev-portfolio
-My developer portfolio.
+# Portfolio
+**Developer portfolio created in pure HTML, CSS, and JavaScript.**
