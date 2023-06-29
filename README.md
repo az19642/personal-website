@@ -1,2 +1,3 @@
 # Portfolio
-**Developer portfolio created in pure HTML, CSS, and JavaScript.**
+**Developer portfolio created in vanilla HTML, CSS, and JavaScript.**
+Bundled and built with Vite.
