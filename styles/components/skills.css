@@ -22,6 +22,7 @@
 }
 
 .skills__name {
+  font-size: var(--size-base);
   font-weight: var(--font-medium);
   align-self: center;
 }
@@ -52,10 +53,20 @@
 }
 /* md */
 @media (min-width: 768px) {
+  .skills__list {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 /* lg */
 @media (min-width: 1024px) {
+  .skills__name {
+    font-size: var(--size-lg);
+  }
+
+  .skills__icon {
+    font-size: var(--size-4xl);
+  }
 }
 
 /* xl */

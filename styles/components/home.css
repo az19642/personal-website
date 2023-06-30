@@ -32,7 +32,7 @@
   display: inline-block;
   height: var(--size-3xl);
   width: var(--size-3xl);
-  fill: var(--color-primary-alt);
+  fill: var(--color-primary);
 }
 
 @media (hover: hover) {
