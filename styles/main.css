@@ -66,6 +66,7 @@ body {
   line-height: 1.6;
   background-color: var(--color-bg);
   color: var(--color-primary);
+  padding-bottom: 50rem;
 }
 
 img,
