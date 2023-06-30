@@ -1,6 +1,6 @@
 const getScrollPadding = () => {
-  const nav = document.querySelector(".nav");
-  const navHeight = calc(nav.offsetHeight);
+  const nav = document.querySelector(".header");
+  const navHeight = nav.offsetHeight;
   document.documentElement.style.setProperty("--scroll-padding", navHeight + "px");
 }
 

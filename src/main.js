@@ -7,8 +7,8 @@ import '../styles/components/home.css';
 import '../styles/components/header.css';
 import '../styles/utils.css';
 
-import getCorrectScrollPadding from './utils/get-scroll-padding';
-getCorrectScrollPadding();
-
+import getScrollPadding from './utils/get-scroll-padding';
 import themeToggle from './utils/theme-toggle';
+
+getScrollPadding();
 themeToggle();
