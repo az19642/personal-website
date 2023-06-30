@@ -8,7 +8,7 @@ import '../styles/components/header.css';
 import '../styles/utils.css';
 
 import getCorrectScrollPadding from './utils/get-scroll-padding';
-getCorrectScrollPadding;
+getCorrectScrollPadding();
 
 import themeToggle from './utils/theme-toggle';
 themeToggle();

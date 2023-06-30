@@ -69,7 +69,7 @@
     width: var(--size-2xl);
     height: var(--size-2xl);
   }
-
+  
   @media (hover: hover) {
     .nav__link--hover-sliding-ul-wrapper {
       line-height: 1.4;
