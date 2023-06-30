@@ -12,11 +12,12 @@
 .skills__item {
   display: flex;
   gap: 1rem;
+  /* \/ \/ \/ Applies only to dark theme icon without colored class */
   color: var(--color-primary-alt);
 }
 
 .skills__icon {
-  color: var(--color-secondary);
+  color: var(--color-primary-alt);
   font-size: var(--size-3xl);
 }
 

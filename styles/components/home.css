@@ -32,17 +32,21 @@
   display: inline-block;
   height: var(--size-3xl);
   width: var(--size-3xl);
-  fill: var(--color-primary);
-  transition: fill 0.3s;
+  fill: var(--color-primary-alt);
 }
 
-.socials__link--hover-sliding-ul-wrapper{
-  line-height: 1.25;
-  position: relative;
-}
+@media (hover: hover) {
+  .socials__link {
+    transition: fill 0.3s;
+  }
+  .socials__link:hover {
+    fill: var(--color-secondary);
+  }
 
-.socials__link:hover {
-  fill: var(--color-secondary);
+  .socials__link--hover-sliding-ul-wrapper{
+    line-height: 1.25;
+    position: relative;
+  }
 }
 
 /* xs */

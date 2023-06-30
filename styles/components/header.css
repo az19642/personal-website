@@ -10,26 +10,28 @@
   font-size: var(--size-3xl);
   font-weight: var(--font-semi-bold);
   text-decoration: none;
-  transition: color 0.3s;
-  position: relative;
-  /* \/ \/ \/ \/ \/ adjust space for hover ul */
-  line-height: 1.2;
 }
 
 .nav__bars {
   display: block;
   width: var(--size-3xl);
   height: var(--size-3xl);
-  transition: color 0.3s;
-}
-
-.site-link:hover,
-.nav__bars:hover {
-  color: var(--color-secondary);
 }
 
 .nav__menu {
   display: none;
+}
+
+@media (hover: hover) {
+  .site-link,
+  .nav__bars {
+    transition: color 0.3s;
+  }
+
+  .site-link:hover,
+  .nav__bars:hover {
+    color: var(--color-secondary);
+  }
 }
 
 /* xs */
@@ -55,14 +57,8 @@
     font-size: var(--size-sm);
     font-weight: var(--font-semi-bold);
     text-decoration: none;
-    transition: color 0.3s;
   }
-
-  .nav__link--hover-sliding-ul-wrapper {
-    line-height: 1.4;
-    position: relative;
-  }
-
+  
   .nav__divider {
     border: 1px solid;
     padding-top: 1.5rem;
@@ -72,12 +68,23 @@
     display: block;
     width: var(--size-2xl);
     height: var(--size-2xl);
-    transition: color 0.3s;
   }
 
-  .nav__link:hover,
-  .theme-btn:hover {
-    color: var(--color-secondary);
+  @media (hover: hover) {
+    .nav__link--hover-sliding-ul-wrapper {
+      line-height: 1.4;
+      position: relative;
+    }
+
+    .nav__link,
+    .theme-btn {
+      transition: color 0.3s;
+    }
+
+    .nav__link:hover,
+    .theme-btn:hover {
+      color: var(--color-secondary);
+    }
   }
 }
 
