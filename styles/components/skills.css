@@ -4,7 +4,7 @@
   margin-top: 1rem;
   justify-items: start;
   gap: 1rem 2rem;
-  max-width: 20rem;
+  max-width: min-content;
   grid-template-columns: repeat(2, 1fr);
   list-style: none;
 }
@@ -12,8 +12,12 @@
 .skills__item {
   display: flex;
   gap: 1rem;
-  height: var(--size-3xl);
   color: var(--color-primary-alt);
+}
+
+.skills__icon {
+  color: var(--color-secondary);
+  font-size: var(--size-3xl);
 }
 
 .skills__name {

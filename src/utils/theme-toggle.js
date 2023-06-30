@@ -1,6 +1,6 @@
 const themeToggle = () => {
   const themeToggleBtns = document.querySelectorAll('#theme-toggle');
-  const skillIcons = document.querySelectorAll('.skills__item > svg > path, .skills__item > svg > g');
+  const skillIcons = document.querySelectorAll('.skills__icon');
 
   const currentTheme = localStorage.getItem('theme');
 
@@ -23,7 +23,7 @@ const themeToggle = () => {
         });
         // Changes skill icon themes
         skillIcons.forEach(icon => {
-          icon.setAttribute('fill','currentColor');
+          icon.classList.remove('colored');
         });
       } else {
         localStorage.removeItem('theme');
@@ -34,7 +34,7 @@ const themeToggle = () => {
         });
         // Changes skill icon themes
         skillIcons.forEach(icon => {
-          icon.setAttribute('fill','currentColor');
+          icon.classList.add('colored');
         });
       }
   }
