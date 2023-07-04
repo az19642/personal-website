@@ -51,18 +51,24 @@
 
 /* xs */
 @media (min-width: 475px) {
+  .home__greeting {
+    font-size: var(--size-4xl);
+  }
 }
 /* sm */
 @media (min-width: 640px) {
 }
 /* md */
 @media (min-width: 768px) {
+  .home__greeting {
+    font-size: var(--size-5xl);
+  }
 }
 
 /* lg */
 @media (min-width: 1024px) {
   .home__greeting {
-    font-size: var(--size-4xl);
+    font-size: var(--size-6xl);
   }
 
   .home__description {
