@@ -1,5 +1,5 @@
 # Portfolio
-Personal portfolio website created with vanilla HTML, CSS, and JavaScript. Built with Vite.
+Personal portfolio website written in vanilla HTML, CSS, and JavaScript. Built with Vite.
 
 TODO:
 - Projects section
