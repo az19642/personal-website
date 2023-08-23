@@ -12,7 +12,7 @@
   width: 100%;
   box-shadow: 0 0.125rem 0.25rem var(--shadow-color-primary);
   background-color: inherit;
-  z-index: 1;
+  z-index: 999;
 }
 
 .section {

@@ -35,18 +35,18 @@
 }
 
 .dark-theme {
-  /* Slate 50 */
-  --color-primary: hsl(210, 40%, 98%);
+  /* Slate 100 */
+  --color-primary: #f1f5f9;
   --shadow-color-primary: hsla(210, 40%, 98%, 0.1);
   
   /* Slate 200 */
   --color-primary-alt: #e2e8f0;
 
-  /* Rose 400 */
-  --color-secondary: hsl(353, 96%, 82%);
+  /* Sky 300 */
+  --color-secondary: #7dd3fc;
 
-  /* Slate 800 */
-  --color-bg: hsl(222, 47%, 11%);
+  /* Slate 900 */
+  --color-bg: #0f172a;
 }
 
 * {
