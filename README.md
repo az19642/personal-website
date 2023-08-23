@@ -1,5 +1,5 @@
 # Portfolio
-Developer portfolio created in HTML, CSS, and JavaScript. Built with Vite.
+Developer portfolio created with vanilla HTML, CSS, and JavaScript. Built with Vite.
 
 TODO:
 - Projects section
